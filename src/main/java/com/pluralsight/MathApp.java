@@ -23,5 +23,20 @@ public class MathApp {
 
         System.out.printf("The area of the circle is: %.2f.%n%n", circleArea);
 
+//  1.4
+        double number = 5.0;
+        double squareRoot = Math.sqrt(number);
+
+        System.out.printf("The square root of 5 is: %.2f.%n%n", squareRoot);
+
+//  1.5
+        double distance = Math.sqrt(Math.pow(85-5, 2) + Math.pow(50-10, 2));
+
+        System.out.printf("The distance is: %.2f.%n%n", distance);
+
+//  1.6
+        double absolute = Math.abs(-3.5);
+
+        System.out.printf("The absolute is: %.1f.%n%n", absolute);
     }
 }
